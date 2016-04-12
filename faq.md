@@ -1,43 +1,43 @@
 # FAQ
 
-01. You got error "java non found" ?
-	* Have you installed java ?
+01. You got error **"java non found"** ?
+	Have you installed java ?
 
-02. You got error "Error: Could not find or load main class Helloworld.java" ?
-	* Ops... sorry, i told you tu run "java helloworld.java". i forget that Java is not interpreted, you have to compile your source code. Run "javac Helloworld.java" and then rerun the java program
+02. You got error **"Error: Could not find or load main class Helloworld.java"** ?
+	Ops... sorry, i told you tu run "java helloworld.java". i forget that Java is not interpreted, you have to compile your source code. Run "javac Helloworld.java" and then rerun the java program
 
-03. You got error "javac: file not found: Helloworld.java"	 ?
-	* Ops i did it again... name of the file is Hello.java !!! Run "javac Hello.java"  and then rerun the java program
+03. You got error **"javac: file not found: Helloworld.java"** ?
+	Ops i did it again... name of the file is Hello.java !!! Run "javac Hello.java"  and then rerun the java program
 
-04. You got error "HelloWorld.java:1: error: reached end of file while parsing"
-	* OMG! I committed a draft version of the code... "//" mark the row as a comment: you have to edit the file and take to a new line the two }} at the end of the file, recompile and then rerun the java program.
+04. You got error **"HelloWorld.java:1: error: reached end of file while parsing"** ?
+	OMG! I committed a draft version of the code... "//" mark the row as a comment: you have to edit the file and take to a new line the two }} at the end of the file, recompile and then rerun the java program.
 
-05. You got error "HelloWorld.java:2: error: class, interface, or enum expected"	?
-	* Sorry.... you have to edit again the file and take to a new line the text from "public static ...", recompile and then rerun the java program
+05. You got error **"HelloWorld.java:2: error: class, interface, or enum expected"** ?
+	Sorry.... you have to edit again the file and take to a new line the text from "public static ...", recompile and then rerun the java program
 
-06. You got error "Hello.java:1: error: class HelloWorld is public, should be declared in a file named HelloWorld.java"	
-	* Well, i think the error message say it all... In Java the file name had to be the same name of the java Class defined inside. Edit the file, recompile and then rerun the java program
+06. You got error **"Hello.java:1: error: class HelloWorld is public, should be declared in a file named HelloWorld.java"** ?	
+	Well, i think the error message say it all... In Java the file name had to be the same name of the java Class defined inside. Edit the file, recompile and then rerun the java program
 
-07. You got error "HelloWorld.java:2: error: ';' expected"
-	* It's always right!! In Java every instruction must terminate with a ";". Put a ";" after the word "world", recompile and then rerun the java program
+07. You got error **"HelloWorld.java:2: error: ';' expected"** ?
+	It's always right!! In Java every instruction must terminate with a ";". Put a ";" after the word "world", recompile and then rerun the java program
 
-08. You got error "HelloWorld.java:2: error: cannot find symbol"	
-	* Agh. String in java is defined by placing thw text inside two ""... put Word after the= inside "", recompile and then rerun the java program.
+08. You got error **"HelloWorld.java:2: error: cannot find symbol"** ?	
+	Agh. String in java is defined by placing thw text inside two ""... put Word after the= inside "", recompile and then rerun the java program.
 
-09. You got error "Error: Could not find or load main class Helloworld"
-	* Again ? Oh no, the Class inside the file (and the java file) is named "HelloWorld" (note the W capitalized) you have to run "java HelloWorld world".
+09. You got error **"Error: Could not find or load main class Helloworld"** ?
+	Again ? Oh no, the Class inside the file (and the java file) is named "HelloWorld" (note the W capitalized) you have to run "java HelloWorld world".
 
-10. You got error "Error: Main method not found in class HelloWorld, please define the main method as: public static void main(String[] args)"
-	* Typo. Check the name of the method inside the code main <> Main. Edit, recompile and then rerun the java program.
+10. You got error **"Error: Main method not found in class HelloWorld, please define the main method as: public static void main(String[] args)"** ?
+	Typo. Check the name of the method inside the code main <> Main. Edit, recompile and then rerun the java program.
 
-11. The java command terminated but a can't read nothing
-	* Here we are, comment in wrong position again.
+11. **The java command terminated but can't read nothing**
+	Here we are, comment in wrong position again.
 
-12. You got error "Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-        at HelloWorld.main(HelloWorld.java:2)"
-    * Congratulation, this is your real java error and this is the stack trace. This is your best friend, it will give you the Truth if you read carefully :-) Ehy it give you the row where the error is throws... but wait we can do better. Learn the importance of indentation: edit the source code giving new line after any ";", recompile and rerun the java program.
+12. You got error **"Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1** ?
+        **at HelloWorld.main(HelloWorld.java:2)"** ?
+    Congratulation, this is your real java error and this is the stack trace. This is your best friend, it will give you the Truth if you read carefully :-) Ehy it give you the row where the error is throws... but wait we can do better. Learn the importance of indentation: edit the source code giving new line after any ";", recompile and rerun the java program.
 
-13. You got error "Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-        at HelloWorld.main(HelloWorld.java:4)"    
-    * Yes in the previous faq we hadn't solved the problem, but now we know precisely what instruction caused it: Line 4 (String world = args[1];). We are trying to read the argument passed at command line to the java program, they are stored in an array of string and passed by java to your main method as a parameter. any array or collection in java start from the index 0. In line 4 we are asking the value at position 1 (second) and not 0 (firs). Put a 0 inside [], recompile and rerun the java program.
+13. You got error **"Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1**  ?
+        **at HelloWorld.main(HelloWorld.java:4)"** ?    
+    Yes in the previous faq we hadn't solved the problem, but now we know precisely what instruction caused it: Line 4 (String world = args[1];). We are trying to read the argument passed at command line to the java program, they are stored in an array of string and passed by java to your main method as a parameter. any array or collection in java start from the index 0. In line 4 we are asking the value at position 1 (second) and not 0 (firs). Put a 0 inside [], recompile and rerun the java program.
     
