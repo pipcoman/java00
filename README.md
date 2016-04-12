@@ -2,8 +2,6 @@
 
 This is your first java lesson. Indeed the lesson before the first.
 
-Enjoy!
-
 In this lesson we will write a program (a java Class) that will print out "Hello, world!"
 
 1. Download Hello.java
@@ -13,3 +11,5 @@ In this lesson we will write a program (a java Class) that will print out "Hello
 5. "Hello, world!" will appeare !!!!
 
 If there is some error check the [F.A.Q.](faq.md) to find some hint ;-) 
+
+**Enjoy!**
