@@ -28,13 +28,16 @@
 	Again ? Oh no, the Class inside the file (and the java file) is named "HelloWorld" (note the W capitalized) you have to run "java HelloWorld world".
 
 10. You got error **"Error: Main method not found in class HelloWorld, please define the main method as: public static void main(String[] args)"** ?
+
 	Typo. Check the name of the method inside the code main <> Main. Edit, recompile and then rerun the java program.
 
 11. **The java command terminated but can't read nothing**
+
 	Here we are, comment in wrong position again.
 
 12. You got error **"Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1** ?
         **at HelloWorld.main(HelloWorld.java:2)"** ?
+
     Congratulation, this is your real java error and this is the stack trace. This is your best friend, it will give you the Truth if you read carefully :-) Ehy it give you the row where the error is throws... but wait we can do better. Learn the importance of indentation: edit the source code giving new line after any ";", recompile and rerun the java program.
 
 13. You got error **"Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1**  ?
