@@ -1,0 +1,6 @@
+FAQ
+
+1 - You got error "java non found" ?
+- have you installed java ?
+
+2 - 
