@@ -3,6 +3,7 @@
 This is your first java lesson. 
 
 In this lesson we will write a program (a java Class) that will print out "Hello, world!"
+
 1. Download Hello.java
 2. Run "cmd.exe" from Start menu (in windows) or a terminal session (not in windows)
 3. Go to the path where Hello.java is
