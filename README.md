@@ -1,6 +1,8 @@
-# java00
+# Java Course 000
 
-This is your first java lesson. 
+This is your first java lesson. Indeed the lesson before the first.
+
+Enjoy!
 
 In this lesson we will write a program (a java Class) that will print out "Hello, world!"
 
